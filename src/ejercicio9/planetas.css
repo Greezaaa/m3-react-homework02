@@ -1,0 +1,14 @@
+.planetas {
+    width: min(800px, 100% - 20px);
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.planeta img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
